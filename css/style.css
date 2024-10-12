@@ -270,6 +270,7 @@ span {
   justify-content: space-around;
   align-items: center;
   padding: 30px;
+  margin-bottom: 150px !important;
 }
 
 .about-box {
@@ -301,4 +302,69 @@ span {
   font-size: 1rem;
   color: #bdbdbd;
   letter-spacing: 0.5px;
+}
+
+.notification {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification h3 {
+  font-size: 2 rem;
+  color: rgb(56, 56, 56);
+}
+
+.notification-input {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 7% 7% 7% 7% / 50% 50% 50% 50%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.notification-input input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.notification-button {
+  width: 120px;
+  height: 40px;
+  background-color: #202020;
+  border-radius: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+}
+
+.notification-button:hover {
+  background-color: #6b60ec;
+  transition: all ease 0.5s;
+}
+
+footer {
+  background-color: black !important;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+  color: #f2f2f2;
 }
